@@ -39,7 +39,13 @@ function Navbar() {
         >
 
           <Link to="/learn">
-  <span style={{cursor:"pointer"}}>Learn</span>
+
+<span>
+
+Learn
+
+</span>
+
 </Link>
 
           <span style={{ cursor: "pointer", color: "white" }}>

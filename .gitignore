@@ -4,6 +4,7 @@ logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+<<<<<<< HEAD
 
 pnpm-debug.log*
 learn-debug.log*
@@ -25,6 +26,9 @@ dist-ssr
 *.sw?
 
 learn-debug.log*
+=======
+lerna-debug.log*
+>>>>>>> 60fd440922ec94976bb071951d3e41dbb4f0e863
 .pnpm-debug.log*
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
@@ -154,4 +158,7 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+<<<<<<< HEAD
 >>>>>>> bcbce457f0c3ce63f82dbbf083c8d77b1a8016fd
+=======
+>>>>>>> 60fd440922ec94976bb071951d3e41dbb4f0e863
