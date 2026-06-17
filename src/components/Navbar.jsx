@@ -70,19 +70,25 @@ Learn
 
           {/* REGISTER */}
           <Link to="/register">
-            <button
-              style={{
-                background: "#7C3AED",
-                color: "white",
-                border: "none",
-                padding: "10px 18px",
-                borderRadius: "10px",
-                cursor: "pointer"
-              }}
-            >
-              Register
-            </button>
-          </Link>
+
+<button
+style={{
+background:"linear-gradient(135deg,#7C3AED,#9333EA)",
+color:"white",
+padding:"10px 24px",
+border:"none",
+borderRadius:"10px",
+fontWeight:"600",
+cursor:"pointer",
+boxShadow:"0 4px 12px rgba(124,58,237,.35)"
+}}
+>
+
+Register
+
+</button>
+
+</Link>
 
         </div>
 
