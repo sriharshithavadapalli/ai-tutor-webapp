@@ -14,9 +14,9 @@ import Summary from "./pages/Summary";
 import Simple from "./pages/Simple";
 import Medium from "./pages/Medium";
 import Advanced from "./pages/Advanced";
-
 import Quiz from "./pages/Quiz";
 import Coding from "./pages/Coding";
+import Dashboard from "./pages/Dashboard";
 
 function App() {
 
@@ -46,12 +46,18 @@ return (
 <Route path="/simple" element={<Simple/>}/>
 
 <Route path="/medium" element={<Medium/>}/>
+<Route path="/medium" element={<Medium/>}/>
 
 <Route path="/advanced" element={<Advanced/>}/>
 
 <Route path="/quiz" element={<Quiz/>}/>
 
 <Route path="/coding" element={<Coding/>}/>
+
+<Route
+path="/dashboard"
+element={<Dashboard />}
+/>
 
 </Routes>
 
